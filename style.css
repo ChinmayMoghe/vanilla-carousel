@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  background-color: #8b2483;
+  text-align: center;
+  line-height: 1.7;
+  padding: 2rem;
+  color: white;
+}
+
+.carousel {
+  background-color: yellow;
+  display: grid;
+  height: 100%;
+  justify-items: center;
+  align-items: center;
+  grid-auto-flow: column;
+  column-gap: 5px;
+}
+
+.carousel-img-container {
+  position: relative;
+}
+
+.carousel-btn {
+  top:calc(50% - 25px);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #8b2482a9;
+  border: 1px solid transparent;
+  position:absolute;
+}
+
+.carousel-btn:hover {
+  cursor: pointer;
+  background-color: #8b2483;
+}
+
+.carousel-btn.prev {
+  left: 0;
+}
+.carousel-btn.next {
+  right: 0;
+}
+
+.prevbtn {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.nextbtn {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.image-count {
+  text-align: center;
+  font-size: 3rem;
+}
