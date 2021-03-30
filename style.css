@@ -36,6 +36,11 @@ body {
 
 .carousel-img-container {
   position: relative;
+  width: 85%;
+}
+
+#carousel-image {
+  width: 100%;
 }
 
 .carousel-btn {
@@ -48,7 +53,8 @@ body {
   position:absolute;
 }
 
-.carousel-btn:hover {
+.carousel-btn:hover,
+.carousel-btn:active {
   cursor: pointer;
   background-color: #8b2483;
 }
