@@ -2,7 +2,7 @@
 const getCarouselDimensions = () => {
   const ASPECT_RATIO = window.screen.availWidth / window.screen.availHeight;
   const IMG_WIDTH = Math.floor(window.innerWidth);
-  const IMG_HEIGHT = ASPECT_RATIO > 1 ? Math.floor(IMG_WIDTH / ASPECT_RATIO) : Math.floor(IMG_WIDTH * ASPECT_RATIO);
+  const IMG_HEIGHT = ASPECT_RATIO > 1 ? Math.floor((IMG_WIDTH / ASPECT_RATIO) * 0.8) : Math.floor(IMG_WIDTH * ASPECT_RATIO * 0.8);
   return [IMG_WIDTH, IMG_HEIGHT];
 };
 

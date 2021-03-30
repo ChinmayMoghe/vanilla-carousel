@@ -48,7 +48,7 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background-color: #8b2482a9;
+  background-color: #000000b0;
   border: 1px solid transparent;
   position:absolute;
 }
@@ -56,7 +56,7 @@ body {
 .carousel-btn:hover,
 .carousel-btn:active {
   cursor: pointer;
-  background-color: #8b2483;
+  background-color: #000;
 }
 
 .carousel-btn.prev {
@@ -70,7 +70,7 @@ body {
   border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 3px;
+  padding: 6px;
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
@@ -79,7 +79,7 @@ body {
   border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 3px;
+  padding: 6px;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
